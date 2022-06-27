@@ -4,8 +4,8 @@
   "description": "",
   "main": "",
   "scripts": {
-    "dev": "",
-    "build": ""
+    "dev": "tailwindcss -i assets/tailwind.css -o assets/theme.css --watch & shopify theme serve",
+    "build": "tailwindcss -i assets/tailwind.css -o assets/theme.css"
   },
   "keywords": [],
   "author": "",

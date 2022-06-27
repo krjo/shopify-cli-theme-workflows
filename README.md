@@ -16,6 +16,13 @@
 - A Github action is included in `.github/workflows` to allow for changes to `.scss` files from the Shopify admin code editor to be compiled to CSS. When a `.scss` file is edited and saved in the code editor, the action will run prior to the commit, and compile a `.css` file which will get picked up by Shopify's connection to Github. This Github action is only run when the user making the commit is `shopify[bot]`. This prevents unnecessary compiling on each commit from the developer.
 - CSS files that have been compiled by sass should not be edited directly.
 - SCSS files should not be rendered in your theme liquid.
+- See the following demo files:
+  - `assets/_helpers.scss`
+  - `assets/_mixins.scss`
+  - `assets/_variables.scss`
+  - `assets/example-section.scss`
+  - `assets/example-section.css`
+  - `sections/example-section.liquid`
 
 #### 🎬 Getting Started
 *See installation and getting started instructions for the Shopify CLI first*

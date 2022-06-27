@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="{{ 'example-section.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'example-section.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="">
+  {%- if section.settings.test -%}
+    <h2>Demo</h2>
+  {%- endif -%}
+  {%- for block in section.blocks -%}
+    {% render block %}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Example Section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "test",
+      "label": "Example section field"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "demo"
+    }
+  ],
+  "presets": [
+    {
+      "name": "demo"
+    }
+  ]
+}
+{% endschema %}
