@@ -2,7 +2,7 @@
 
 ## Two simple Shopify development workflows with added support for sass/scss, and Tailwind CSS
 
-### 🎉 Works with Shopify's native Github integration.
+### 🎉 Works with Shopify's native Github integration
 
 ### 🛠 Requirements
 - [Node](https://nodejs.org/en/)

@@ -2,7 +2,7 @@
   "name": "dawn-sass",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "dev": "sass --watch assets:assets --no-source-map --style=compressed & shopify theme serve",
     "build": "sass assets:assets --no-source-map --style=compressed"

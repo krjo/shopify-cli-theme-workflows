@@ -1,4 +1,15 @@
 {
+  "name": "dawn-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.1.4"
   }
